@@ -1,0 +1,18 @@
+scrapy shell -s USER_AGENT="Mozilla/5.0"  http://www.1point3acres.com/bbs/forum-237-1.html 
+
+scrapy crawl -s CLOSESPIDER_PAGECOUNT=3 -s DOWNLOAD_DELAY=0.25 -s LOG_LEVEL='DEBUG' easy -o items.csv 
+
+scrapy crawl -s CLOSESPIDER_PAGECOUNT=5 -s DOWNLOAD_DELAY=0.1 -s LOG_LEVEL=DEBUG easy -o items.csv
+
+scrapy crawl -s CLOSESPIDER_ITEMCOUNT=5 -s DOWNLOAD_DELAY=0.1 -s LOG_LEVEL=DEBUG login -o items.csv
+
+$ scrapy crawl fast -s CLOSESPIDER_ITEMCOUNT=10
+$ scrapy crawl fast -s CLOSESPIDER_PAGECOUNT=10
+$ scrapy crawl fast -s CLOSESPIDER_TIMEOUT=10
+
+
+response.xpath('//table[@summary]')
+
+response.xpath('//table[@summary]/tbody[not(@class = "emptb")]/tr')
+
+response.xpath('//a[@class = "nxt"]').extract()
