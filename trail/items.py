@@ -14,6 +14,7 @@ class TrailItem(scrapy.Item):
     PostTitle = Field()
     PostUser = Field()
     PostTime = Field()
+    PostID = Field()
     
     Year = Field()
     Season = Field()
@@ -50,3 +51,9 @@ class TrailItem(scrapy.Item):
     
     URL = Field()
     SpiderTime = Field()
+
+
+class AjaxItem(scrapy.Item):
+    PostID = Field()
+    Data = Field()
+    DataType = Field()

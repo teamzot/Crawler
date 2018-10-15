@@ -1,0 +1,151 @@
+"time","level","message"
+"2018-10-14 23:28:22","INFO","Log opened."
+"2018-10-14 23:28:22","INFO","[scrapy.log] Scrapy 1.4.0 started"
+"2018-10-14 23:28:22","INFO","[scrapy.utils.log] Scrapy 1.4.0 started (bot: trail)"
+"2018-10-14 23:28:22","INFO","[scrapy.utils.log] Overridden settings: {'NEWSPIDER_MODULE': 'trail.spiders', 'STATS_CLASS': 'sh_scrapy.stats.HubStorageStatsCollector', 'ROBOTSTXT_OBEY': True, 'LOG_LEVEL': 'INFO', 'CLOSESPIDER_ERRORCOUNT': 10, 'AUTOTHROTTLE_ENABLED': True, 'LOG_ENABLED': False, 'SPIDER_MODULES': ['trail.spiders'], 'MEMUSAGE_LIMIT_MB': 950, 'TELNETCONSOLE_HOST': '0.0.0.0', 'BOT_NAME': 'trail', 'DOWNLOAD_DELAY': 0.5, 'USER_AGENT': 'Adsbot-Google'}"
+"2018-10-14 23:28:22","INFO","[scrapy.middleware] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.debug.StackTraceDump',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.spiderstate.SpiderState',
+ 'scrapy.extensions.throttle.AutoThrottle',
+ 'sh_scrapy.extension.HubstorageExtension']"
+"2018-10-14 23:28:22","INFO","[scrapy.middleware] Enabled downloader middlewares:
+['sh_scrapy.diskquota.DiskQuotaDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats',
+ 'sh_scrapy.middlewares.HubstorageDownloaderMiddleware']"
+"2018-10-14 23:28:22","INFO","[scrapy.middleware] Enabled spider middlewares:
+['sh_scrapy.diskquota.DiskQuotaSpiderMiddleware',
+ 'sh_scrapy.middlewares.HubstorageSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']"
+"2018-10-14 23:28:22","INFO","[scrapy.middleware] Enabled item pipelines:
+[]"
+"2018-10-14 23:28:22","INFO","[scrapy.core.engine] Spider opened"
+"2018-10-14 23:28:22","INFO","[scrapy.extensions.logstats] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)"
+"2018-10-14 23:28:22","INFO","TelnetConsole starting on 6023"
+"2018-10-14 23:29:22","INFO","[scrapy.extensions.logstats] Crawled 30 pages (at 30 pages/min), scraped 26 items (at 26 items/min)"
+"2018-10-14 23:30:22","INFO","[scrapy.extensions.logstats] Crawled 100 pages (at 70 pages/min), scraped 93 items (at 67 items/min)"
+"2018-10-14 23:31:22","INFO","[scrapy.extensions.logstats] Crawled 172 pages (at 72 pages/min), scraped 162 items (at 69 items/min)"
+"2018-10-14 23:32:22","INFO","[scrapy.extensions.logstats] Crawled 240 pages (at 68 pages/min), scraped 227 items (at 65 items/min)"
+"2018-10-14 23:33:22","INFO","[scrapy.extensions.logstats] Crawled 310 pages (at 70 pages/min), scraped 294 items (at 67 items/min)"
+"2018-10-14 23:34:22","INFO","[scrapy.extensions.logstats] Crawled 376 pages (at 66 pages/min), scraped 356 items (at 62 items/min)"
+"2018-10-14 23:35:22","INFO","[scrapy.extensions.logstats] Crawled 436 pages (at 60 pages/min), scraped 414 items (at 58 items/min)"
+"2018-10-14 23:36:22","INFO","[scrapy.extensions.logstats] Crawled 513 pages (at 77 pages/min), scraped 488 items (at 74 items/min)"
+"2018-10-14 23:37:22","INFO","[scrapy.extensions.logstats] Crawled 578 pages (at 65 pages/min), scraped 550 items (at 62 items/min)"
+"2018-10-14 23:38:22","INFO","[scrapy.extensions.logstats] Crawled 667 pages (at 89 pages/min), scraped 635 items (at 85 items/min)"
+"2018-10-14 23:39:22","INFO","[scrapy.extensions.logstats] Crawled 753 pages (at 86 pages/min), scraped 717 items (at 82 items/min)"
+"2018-10-14 23:40:22","INFO","[scrapy.extensions.logstats] Crawled 815 pages (at 62 pages/min), scraped 777 items (at 60 items/min)"
+"2018-10-14 23:41:22","INFO","[scrapy.extensions.logstats] Crawled 877 pages (at 62 pages/min), scraped 836 items (at 59 items/min)"
+"2018-10-14 23:42:22","INFO","[scrapy.extensions.logstats] Crawled 952 pages (at 75 pages/min), scraped 906 items (at 70 items/min)"
+"2018-10-14 23:43:22","INFO","[scrapy.extensions.logstats] Crawled 1023 pages (at 71 pages/min), scraped 975 items (at 69 items/min)"
+"2018-10-14 23:44:22","INFO","[scrapy.extensions.logstats] Crawled 1096 pages (at 73 pages/min), scraped 1045 items (at 70 items/min)"
+"2018-10-14 23:45:22","INFO","[scrapy.extensions.logstats] Crawled 1168 pages (at 72 pages/min), scraped 1113 items (at 68 items/min)"
+"2018-10-14 23:46:22","INFO","[scrapy.extensions.logstats] Crawled 1232 pages (at 64 pages/min), scraped 1175 items (at 62 items/min)"
+"2018-10-14 23:47:22","INFO","[scrapy.extensions.logstats] Crawled 1275 pages (at 43 pages/min), scraped 1216 items (at 41 items/min)"
+"2018-10-14 23:48:22","INFO","[scrapy.extensions.logstats] Crawled 1342 pages (at 67 pages/min), scraped 1280 items (at 64 items/min)"
+"2018-10-14 23:49:22","INFO","[scrapy.extensions.logstats] Crawled 1413 pages (at 71 pages/min), scraped 1347 items (at 67 items/min)"
+"2018-10-14 23:50:22","INFO","[scrapy.extensions.logstats] Crawled 1479 pages (at 66 pages/min), scraped 1410 items (at 63 items/min)"
+"2018-10-14 23:51:22","INFO","[scrapy.extensions.logstats] Crawled 1549 pages (at 70 pages/min), scraped 1477 items (at 67 items/min)"
+"2018-10-14 23:52:22","INFO","[scrapy.extensions.logstats] Crawled 1622 pages (at 73 pages/min), scraped 1547 items (at 70 items/min)"
+"2018-10-14 23:53:22","INFO","[scrapy.extensions.logstats] Crawled 1701 pages (at 79 pages/min), scraped 1622 items (at 75 items/min)"
+"2018-10-14 23:54:22","INFO","[scrapy.extensions.logstats] Crawled 1781 pages (at 80 pages/min), scraped 1699 items (at 77 items/min)"
+"2018-10-14 23:55:22","INFO","[scrapy.extensions.logstats] Crawled 1869 pages (at 88 pages/min), scraped 1782 items (at 83 items/min)"
+"2018-10-14 23:56:22","INFO","[scrapy.extensions.logstats] Crawled 1951 pages (at 82 pages/min), scraped 1860 items (at 78 items/min)"
+"2018-10-14 23:57:22","INFO","[scrapy.extensions.logstats] Crawled 2015 pages (at 64 pages/min), scraped 1922 items (at 62 items/min)"
+"2018-10-14 23:58:22","INFO","[scrapy.extensions.logstats] Crawled 2096 pages (at 81 pages/min), scraped 1999 items (at 77 items/min)"
+"2018-10-14 23:59:22","INFO","[scrapy.extensions.logstats] Crawled 2173 pages (at 77 pages/min), scraped 2072 items (at 73 items/min)"
+"2018-10-15 00:00:22","INFO","[scrapy.extensions.logstats] Crawled 2261 pages (at 88 pages/min), scraped 2156 items (at 84 items/min)"
+"2018-10-15 00:01:22","INFO","[scrapy.extensions.logstats] Crawled 2341 pages (at 80 pages/min), scraped 2232 items (at 76 items/min)"
+"2018-10-15 00:02:22","INFO","[scrapy.extensions.logstats] Crawled 2417 pages (at 76 pages/min), scraped 2304 items (at 72 items/min)"
+"2018-10-15 00:03:22","INFO","[scrapy.extensions.logstats] Crawled 2492 pages (at 75 pages/min), scraped 2375 items (at 71 items/min)"
+"2018-10-15 00:04:22","INFO","[scrapy.extensions.logstats] Crawled 2575 pages (at 83 pages/min), scraped 2455 items (at 80 items/min)"
+"2018-10-15 00:05:22","INFO","[scrapy.extensions.logstats] Crawled 2652 pages (at 77 pages/min), scraped 2528 items (at 73 items/min)"
+"2018-10-15 00:06:22","INFO","[scrapy.extensions.logstats] Crawled 2727 pages (at 75 pages/min), scraped 2599 items (at 71 items/min)"
+"2018-10-15 00:07:22","INFO","[scrapy.extensions.logstats] Crawled 2799 pages (at 72 pages/min), scraped 2669 items (at 70 items/min)"
+"2018-10-15 00:08:22","INFO","[scrapy.extensions.logstats] Crawled 2879 pages (at 80 pages/min), scraped 2745 items (at 76 items/min)"
+"2018-10-15 00:09:22","INFO","[scrapy.extensions.logstats] Crawled 2948 pages (at 69 pages/min), scraped 2811 items (at 66 items/min)"
+"2018-10-15 00:10:22","INFO","[scrapy.extensions.logstats] Crawled 3025 pages (at 77 pages/min), scraped 2885 items (at 74 items/min)"
+"2018-10-15 00:11:22","INFO","[scrapy.extensions.logstats] Crawled 3097 pages (at 72 pages/min), scraped 2953 items (at 68 items/min)"
+"2018-10-15 00:12:22","INFO","[scrapy.extensions.logstats] Crawled 3158 pages (at 61 pages/min), scraped 3012 items (at 59 items/min)"
+"2018-10-15 00:13:22","INFO","[scrapy.extensions.logstats] Crawled 3240 pages (at 82 pages/min), scraped 3089 items (at 77 items/min)"
+"2018-10-15 00:14:22","INFO","[scrapy.extensions.logstats] Crawled 3314 pages (at 74 pages/min), scraped 3161 items (at 72 items/min)"
+"2018-10-15 00:15:00","ERROR","[scrapy.core.scraper] Spider error processing <GET https://www.1point3acres.com/bbs/forum.php?mod=forumdisplay&fid=237&sortid=320&sortid=320&page=154> (referer: https://www.1point3acres.com/bbs/forum.php?mod=forumdisplay&fid=237&page=153)
+Traceback (most recent call last):
+  File ""/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py"", line 102, in iter_errback
+    yield next(it)
+  File ""/usr/local/lib/python2.7/site-packages/sh_scrapy/middlewares.py"", line 30, in process_spider_output
+    for x in result:
+  File ""/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py"", line 29, in process_spider_output
+    for x in result:
+  File ""/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py"", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File ""/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py"", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File ""/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py"", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File ""/app/__main__.egg/trail/spiders/loginAjax.py"", line 47, in parse
+    yield Request(""https://www.1point3acres.com/bbs/""+next_url)
+TypeError: cannot concatenate 'str' and 'NoneType' objects"
+"2018-10-15 00:15:22","INFO","[scrapy.extensions.logstats] Crawled 3388 pages (at 74 pages/min), scraped 3232 items (at 71 items/min)"
+"2018-10-15 00:16:22","INFO","[scrapy.extensions.logstats] Crawled 3489 pages (at 101 pages/min), scraped 3333 items (at 101 items/min)"
+"2018-10-15 00:17:22","INFO","[scrapy.extensions.logstats] Crawled 3586 pages (at 97 pages/min), scraped 3430 items (at 97 items/min)"
+"2018-10-15 00:18:22","INFO","[scrapy.extensions.logstats] Crawled 3680 pages (at 94 pages/min), scraped 3523 items (at 93 items/min)"
+"2018-10-15 00:19:22","INFO","[scrapy.extensions.logstats] Crawled 3779 pages (at 99 pages/min), scraped 3623 items (at 100 items/min)"
+"2018-10-15 00:20:22","INFO","[scrapy.extensions.logstats] Crawled 3870 pages (at 91 pages/min), scraped 3714 items (at 91 items/min)"
+"2018-10-15 00:21:23","INFO","[scrapy.extensions.logstats] Crawled 3961 pages (at 91 pages/min), scraped 3804 items (at 90 items/min)"
+"2018-10-15 00:22:22","INFO","[scrapy.extensions.logstats] Crawled 4044 pages (at 83 pages/min), scraped 3888 items (at 84 items/min)"
+"2018-10-15 00:23:22","INFO","[scrapy.extensions.logstats] Crawled 4140 pages (at 96 pages/min), scraped 3984 items (at 96 items/min)"
+"2018-10-15 00:24:22","INFO","[scrapy.extensions.logstats] Crawled 4240 pages (at 100 pages/min), scraped 4084 items (at 100 items/min)"
+"2018-10-15 00:25:22","INFO","[scrapy.extensions.logstats] Crawled 4337 pages (at 97 pages/min), scraped 4180 items (at 96 items/min)"
+"2018-10-15 00:26:22","INFO","[scrapy.extensions.logstats] Crawled 4433 pages (at 96 pages/min), scraped 4277 items (at 97 items/min)"
+"2018-10-15 00:27:22","INFO","[scrapy.extensions.logstats] Crawled 4527 pages (at 94 pages/min), scraped 4370 items (at 93 items/min)"
+"2018-10-15 00:28:22","INFO","[scrapy.extensions.logstats] Crawled 4625 pages (at 98 pages/min), scraped 4469 items (at 99 items/min)"
+"2018-10-15 00:29:22","INFO","[scrapy.extensions.logstats] Crawled 4716 pages (at 91 pages/min), scraped 4559 items (at 90 items/min)"
+"2018-10-15 00:30:00","INFO","[scrapy.crawler] Received SIGTERM, shutting down gracefully. Send again to force "
+"2018-10-15 00:30:00","INFO","[scrapy.core.engine] Closing spider (shutdown)"
+"2018-10-15 00:30:11","INFO","[scrapy.statscollectors] Dumping Scrapy stats:
+{'downloader/request_bytes': 3921458,
+ 'downloader/request_count': 4795,
+ 'downloader/request_method_count/GET': 4793,
+ 'downloader/request_method_count/POST': 2,
+ 'downloader/response_bytes': 6247465,
+ 'downloader/response_count': 4795,
+ 'downloader/response_status_count/200': 4794,
+ 'downloader/response_status_count/301': 1,
+ 'dupefilter/filtered': 510,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2018, 10, 15, 0, 30, 11, 31826),
+ 'item_scraped_count': 4638,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 69,
+ 'memusage/max': 65273856,
+ 'memusage/startup': 52355072,
+ 'request_depth_max': 155,
+ 'response_received_count': 4794,
+ 'scheduler/dequeued': 4794,
+ 'scheduler/dequeued/disk': 4794,
+ 'scheduler/enqueued': 15046,
+ 'scheduler/enqueued/disk': 15046,
+ 'spider_exceptions/TypeError': 1,
+ 'start_time': datetime.datetime(2018, 10, 14, 23, 28, 22, 813186)}"
+"2018-10-15 00:30:11","INFO","[scrapy.core.engine] Spider closed (shutdown)"
+"2018-10-15 00:30:11","INFO","(TCP Port 6023 Closed)"
+"2018-10-15 00:30:11","INFO","Main loop terminated."

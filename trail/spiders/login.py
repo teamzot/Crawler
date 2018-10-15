@@ -19,14 +19,14 @@ class EasySpider(CrawlSpider):
     def start_requests(self):
         return [
             Request(
-                'http://www.1point3acres.com/bbs/forum-237-1.html',
+                'https://www.1point3acres.com/bbs/forum-237-1.html',
                 callback=self.parse_welcome)
         ]
 
     def parse_welcome(self, response):
         return FormRequest.from_response(
             response,
-            formdata={'username': '', 'password': ''}
+            formdata={'username': '7874364@gmail.com', 'password': ''}
         )
 
     rules = (
@@ -41,7 +41,8 @@ class EasySpider(CrawlSpider):
         item['PostTitle'] = response.xpath('//*[@id="thread_subject"]/text()').extract()
         item['PostUser'] = response.xpath('//*[@class="authi"]/a/text()').extract_first()
         item['PostTime'] = response.xpath('//*[@class="authi"]//span/@title').extract_first()
-        
+        item['PostID'] = response.url.split('&')[1][4:]
+
         item['URL'] = response.url
         item['SpiderTime'] = datetime.datetime.now()
         
@@ -60,17 +61,17 @@ class EasySpider(CrawlSpider):
             item['ExperienceLevel'] = table[7].strip()
             item['Group'] = table[8].strip()
             item['InterestPoint'] = table[9].strip()
-            item['Title'] = table[10].strip()
+            # item['Title'] = table[10].strip()
             item['Level'] = table[11].strip()
             item['PositionType'] = table[12].strip()
             item['CompanyName'] = table[13].strip()
             item['CompanyAltName'] = table[14].strip()
             item['Area'] = table[15].strip()
-            item['BaseSalary'] = table[16].strip()
-            item['Equity'] = table[17].strip()
+            # item['BaseSalary'] = table[16].strip()
+            # item['Equity'] = table[17].strip()
             item['EquitySchedule'] = table[18].strip()
-            item['SignBonus'] = table[19].strip()
-            item['YearlyBonus'] = table[20].strip()
+            # item['SignBonus'] = table[19].strip()
+            # item['YearlyBonus'] = table[20].strip()
             item['RelocationFee'] = table[21].strip()
             item['OtherOffer'] = table[22].strip()
             item['GreenCard'] = table[23].strip()
@@ -80,4 +81,5 @@ class EasySpider(CrawlSpider):
             return item
         else:
             logging.warning(response.body)
+            logging.error("something wrong")
             return item
